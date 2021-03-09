@@ -1,0 +1,26 @@
+########################################################################################################
+#                                                                                                      #
+#                                              Cameras                                                 #
+#                                                                                                      #
+########################################################################################################
+
+- platform: generic
+  name: Carport
+  stream_source: !secret camera-carport-still-url
+  still_image_url: !secret camera-carport-stream-url
+  username: !secret camera-username
+  password: !secret camera-password
+
+- platform: generic
+  name: Frontyard
+  stream_source: !secret camera-frontyard-still-url
+  still_image_url: !secret camera-frontyard-stream-url
+  username: !secret camera-username
+  password: !secret camera-password
+
+- platform: generic
+  name: Backyard
+  stream_source: !secret camera-backyard-still-url
+  still_image_url: !secret camera-backyard-stream-url
+  username: !secret camera-username
+  password: !secret camera-password
