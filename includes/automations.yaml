@@ -242,7 +242,7 @@
   action:
     service: light.toggle
     data:
-      entity_id: light.lighthannah
+      entity_id: light.lightrhode
 
 # Bedroom Hannah:
 - alias: "Switch: Toggle lights bedroom Hannah"
